@@ -1,15 +1,18 @@
 # Devin for Raycast
 
-Manage Devin sessions from Raycast without leaving your keyboard.
+Manage Devin sessions from Raycast.
+
+Devin for Raycast gives you a fast command palette for working with Devin sessions without leaving your keyboard.
 
 ## Features
 
-- Browse and search recent Devin sessions
-- Inspect session status, pull request links, tags, and recent messages
-- Open sessions directly in the Devin web app
-- Create a new Devin session
+- Browse and search Devin sessions
+- Separate your sessions from the rest of your team
+- Open sessions directly in Devin
+- Review recent messages and session details
+- Create a new session
 - Send a message to an existing session
-- Pin favorite sessions and prioritize recently touched sessions locally in Raycast
+- Pin favorites and keep recently used sessions easy to reach
 
 ## Setup
 
@@ -21,7 +24,7 @@ Manage Devin sessions from Raycast without leaving your keyboard.
    - `Devin API URL` if you use a non-default API host
    - `My Devin Email` if you want the list split into your sessions vs everyone else's
 
-The extension targets the Devin **v1 API**:
+The extension currently targets the Devin v1 API:
 
 - `GET /v1/sessions`
 - `GET /v1/sessions/{session_id}`

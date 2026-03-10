@@ -1,7 +1,7 @@
 {
   "name": "devin",
   "title": "Devin",
-  "description": "Browse Devin sessions, create new sessions, and message active workspaces from Raycast.",
+  "description": "Browse Devin sessions, inspect recent activity, open sessions in Devin, create new sessions, and send follow-up messages without leaving Raycast.",
   "icon": "icon.png",
   "author": "anthony_quach",
   "license": "MIT",
@@ -60,7 +60,7 @@
       "name": "sessions",
       "title": "Devin",
       "subtitle": "Devin",
-      "description": "Open Devin in Raycast to browse sessions, inspect status, and manage active work.",
+      "description": "Browse Devin sessions, inspect recent activity, and manage active work from Raycast.",
       "icon": "icon.png",
       "mode": "view",
       "keywords": [
@@ -75,7 +75,7 @@
       "name": "create-session",
       "title": "Create Session",
       "subtitle": "Devin",
-      "description": "Start a new Devin session from Raycast.",
+      "description": "Create a new Devin session from Raycast.",
       "icon": "icon.png",
       "mode": "view",
       "keywords": [

@@ -15,7 +15,9 @@ type ExtensionPreferences = {
   /** Devin API URL - Base URL for the Devin API. Leave the default unless you're using a custom deployment. */
   "apiBaseUrl": string,
   /** My Devin Email - Used to separate your sessions from everyone else's in the main list. */
-  "currentUserEmail"?: string
+  "currentUserEmail"?: string,
+  /** Demo Mode - Use local fake sessions and pull requests so you can capture screenshots without exposing real data. */
+  "demoMode": boolean
 }
 
 /** Preferences accessible in all the extension's commands */
